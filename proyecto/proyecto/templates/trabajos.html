@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <title>Trabajos</title>
+
+        <style>
+
+            body{
+                background: black;
+                color: aliceblue;
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+
+        <h1>Trabajos</h1>
+        <button style="background-color: black;color: aliceblue;border-radius: 5px;padding: 10px 20px;display: block;
+        margin: auto;border-color: aliceblue;" onclick='location.href="http://127.0.0.1:8000/inicio"'>HOME</button>
+        {{ trabajosp }}
+        <p>
+        Primer Trabajo :
+        <p>
+            <ul>
+                <li>Lugar de Trabajo : {{ lugar_trabajo1 }}.</li>
+                <li>Año de Inicio : {{ ano_inicio1 }}.</li>
+                <li>Año de Fin : {{ ano_fin1 }}.</li>
+                <li>Puesto : {{ puesto1 }}.</li>
+            </ul>
+        
+        <p>
+        Segundo Trabajo :
+        <p>
+            <ul>
+                <li>Lugar de Trabajo : {{ lugar_trabajo2 }}.</li>
+                <li>Año de Inicio : {{ ano_inicio2 }}.</li>
+                <li>Año de Fin : {{ ano_fin2 }}.</li>
+                <li>Puesto : {{ puesto2 }}.</li>
+          </ul>
+        
+    </body>
+
+</html>

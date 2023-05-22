@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <title>Datos</title>
+
+        <style>
+
+            body{
+                background: black;
+                color: aliceblue;
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+
+        <h1>Datos</h1>
+        <button style="background-color: black;color: aliceblue;border-radius: 5px;padding: 10px 20px;display: block;
+        margin: auto;border-color: aliceblue;" onclick='location.href="http://127.0.0.1:8000/inicio"'>HOME</button>
+        {{ datosp }}
+        <p>
+            <ul>
+                <li>Nombre : {{ datonombre }}.</li>
+                <li>Primer Apellido : {{ datoapellido }}.</li>
+                <li>Segundo Apellido : {{ datoapellido2 }}.</li>
+                <li>Fecha de Nacimiento : {{ fechabirth }}.</li>
+                <li>Celular : {{ celular }}.</li>
+                <li>Correo : {{ correo }}.</li>
+                <li>Domicilio : {{ domicilio }}.</li>
+                <li>Género : {{ genero }}.</li>
+                <li>Objetivo : {{ objetivo }}.</li>
+                <li>Salario Esperado : {{ salario_esperado}}.</li>
+              </ul>
+        
+    </body>
+
+</html>
